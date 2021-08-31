@@ -1,0 +1,151 @@
+/* Style */
+
+/*@font-face {
+  font-family: 'MyWebFont';
+  src: url('webfont.eot'); /* IE9 Compat Modes */
+
+
+/* Standard */
+
+/*@font-face { font-family:'Radnika Next';
+              src: url('../font/RadnikaNext-Regular.otf') format("opentype");
+    font-weight: regular;
+}
+@font-face { font-family:'Radnika Next';
+              src: url('../font/RadnikaNext-Bold.otf') format("opentype");
+    font-weight: bold;
+}
+
+@font-face { font-family:'Monoist';
+              src: url('../font/Monoist-Regular.woff') format("woff");
+    font-weight: regular;
+
+@font-face { font-family:'Monoist';
+              src: url('../font/Monoist-Regular.oet') format("opentype");
+    font-weight: regular;
+}
+
+
+
+
+
+
+@font-face { font-family: 'HK grotesk';
+             src: url('../font/HKGrotesk-SemiBold.otf') format('truetype'); }*/
+body {
+/*  font-family: 'PT Sans', sans-serif;
+*/   /*font-family: 'Open Sans', sans-serif;*/
+font-family: "Monoist", monospace;
+font-weight: light;
+ font-size: 18px;
+  line-height: 10px;
+  color: black;
+margin-top: 0%;  
+margin-left: 2%;
+  background-color:black;
+padding-left: 3%;
+}
+
+
+#temperatureDiv { 
+margin-top: -10%;}
+
+
+header {
+  float:left; width:100%;
+}
+
+h1 {
+  font-family: "Monoist", monospace;
+
+font-weight: light;
+ font-size: 20px;
+  line-height: 1.4;
+  margin-top: 3%;
+  margin-bottom: 0%;
+  color: #ff00ff; 
+}
+
+
+p {
+/*   -moz-column-count:    2;
+        -webkit-column-count: 2;
+        column-count:         2;*/
+     text-decoration: none;
+  margin-bottom: 0px;
+margin-left: 0%;
+margin-top: 2%;
+font-size: 14px;
+margin-right:2%;
+
+line-height: 20px;
+opacity: 1;
+color:#00004d;
+font-family: "Monoist", monospace;
+  z-index: 2;
+
+}
+
+
+input,select {
+    width: 100px;
+    background-color: #cccccc;
+    color: #ff00ff;
+    padding: 7px 15px;
+    margin: 2px 0;
+    border: 2px solid #00ff00;
+    border-radius: 3px;
+    margin-bottom: 1%;
+    margin-left: 10%;
+}
+
+input,button {
+    width: 150px;
+    background-color: #cccccc;
+    color: black;
+    font-family: "Monoist", monospace;
+    font-size: 14px;
+
+    padding: 8px 8px;
+    margin: 0px 0;
+    border: 2px solid black;
+    border-radius: 3px;
+/*        float:left;
+*/        margin-right: 1%;
+    text-align: center;
+    margin-bottom: 1%;
+        margin-left: 0%;
+
+}
+.one {
+float:none; 
+width: 100%;
+}
+
+submit,button { 
+    width: 120px;
+    color:white;
+    background-color: #0000ff;
+    padding: 5px 8px;
+    margin: 0px 0;
+    border: 2px solid #0000ff;
+    border-radius: 100px;
+
+margin-bottom: 1%;
+}
+submit,button:hover {
+      background-color:#465bfc;
+          border: 2px solid #465bfc;
+    color:#ffffff;
+
+}
+/*#text h4 {
+   position: absolute; 
+   top: 0px; 
+   left: 0%; 
+   width: 100%; 
+float:left;
+   }*/
+
+
+
